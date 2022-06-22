@@ -1,6 +1,6 @@
 """
 Author: @new92
-Password Generator
+Password Generator Program
 """
 import random
 import time
@@ -59,4 +59,4 @@ psw = ""
 for i in range(length):
     psw += random.choice(RANDLIST)
 
-print(psw)
+print("Password: "+str(psw))
