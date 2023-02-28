@@ -13,8 +13,8 @@ lows=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s
 nums=["1","2","3","4","5","6","7","8","9"]
 spesChars=["!","@","#","$","%","^","&","*","|","/"]
 
-cap=input("[?] Do you want to include cappital letters ?[Y/N] ")
-while cap != "y" and cap != "Y" and cap != "n" and cap != "N" or cap == None:
+cap=str(input("[?] Do you want to include cappital letters ?[Y/N] "))
+while (cap != "y" and cap != "Y" and cap != "n" and cap != "N") or cap == None:
     print("[!] Invalid Input !")
     cap=input("\n [::] Please enter again: ")
 if cap == "y" or cap == "Y":
