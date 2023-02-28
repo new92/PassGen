@@ -27,12 +27,12 @@ low=str(input("\n [?] Do you want to include low letters ?[Y/N] "))
 while low != "y" and low != "Y" and low != "n" and low != "N" or low == None:
     print("[!] Invalid input !")
     sleep(1)
-    low=input("\n[::] Please enter again: ")
+    low=str(input("\n[::] Please enter again: "))
 if low == "y" or low == "Y":
     lower=True
 else:
     lower = False
-num=input("\n [?] Do you want to include numbers ?[Y/N] ")
+num=str(input("\n [?] Do you want to include numbers ?[Y/N] "))
 while num != "y" and num != "Y" and num != "n" and num != "N" or num == None:
     print("[!] Invalid Input !")
     num=input("\n [::] Please enter again: ")
