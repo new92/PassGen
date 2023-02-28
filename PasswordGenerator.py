@@ -32,11 +32,12 @@ if low == "y" or low == "Y":
     lower = True
 else:
     lower = False
+    
 num=str(input("[?] Do you want to include numbers ? [Y/N] "))
 while num != "y" and num != "Y" and num != "n" and num != "N" or num == None:
     print("[!] Invalid input !")
     sleep(1)
-    num=str(input("\n [::] Please enter again: "))
+    num=str(input("[?] Do you want to include numbers ? [Y/N] "))
 if num == "y" or num == "Y":
     numbers = True
 else:
