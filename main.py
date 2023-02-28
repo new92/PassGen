@@ -52,6 +52,7 @@ if speschar == "y" or speschar == "Y":
     specialchar = True
 else:
     specialchar = False
+    
 length=int(input("[::] Please enter the password length: "))
 while length < 4:
     print("[!] Weak password !")
@@ -71,4 +72,4 @@ psw = ""
 for i in range(length):
     psw += random.choice(RANDLIST)
 
-print("\n[+] Your Password: "+str(psw))
+print("[+] Your Password: "+str(psw))
