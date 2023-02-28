@@ -23,11 +23,11 @@ if cap == "y" or cap == "Y":
 else:
     capital=False
     
-low=str(input("\n [?] Do you want to include low letters ? [Y/N] "))
+low=str(input("[?] Do you want to include low letters ? [Y/N] "))
 while low != "y" and low != "Y" and low != "n" and low != "N" or low == None:
     print("[!] Invalid input !")
     sleep(1)
-    low=str(input("\n[::] Please enter again: "))
+    low=str(input("[?] Do you want to include low letters ? [Y/N] "))
 if low == "y" or low == "Y":
     lower=True
 else:
