@@ -5,7 +5,7 @@ Github: @new92
 Script for Generating strong passwords !
 """
 
-import random
+from random import choice
 from time import sleep
 
 caps=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
@@ -70,6 +70,6 @@ if specialchar:
     RANDLIST += spesChars
 psw = ""
 for i in range(length):
-    psw += random.choice(RANDLIST)
+    psw += choice(RANDLIST)
 
-print("[✓] Generated password: "+str(psw))
+print("[✓] Generated password: "+psw)
