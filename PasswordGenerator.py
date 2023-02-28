@@ -53,9 +53,9 @@ else:
     specialchar = False
 length=int(input("[::] Please enter the password length: "))
 while length < 4:
-    print("[!] Cannot generate password with that length !")
+    print("[!] Weak password !")
     sleep(1)
-    length=int(input("\n[::] Please enter again the password length: "))
+    length=int(input("[::] Please enter again the password length: "))
 
 RANDLIST = []
 if capital:
