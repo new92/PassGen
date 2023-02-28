@@ -24,7 +24,7 @@ else:
     capital = False
     
 low=str(input("[?] Do you want to include low letters ? [Y/N] "))
-while low != "y" and low != "Y" and low != "n" and low != "N" or low == None:
+while (low != "y" and low != "Y" and low != "n" and low != "N") or low == None:
     print("[!] Invalid input !")
     sleep(1)
     low=str(input("[?] Do you want to include low letters ? [Y/N] "))
