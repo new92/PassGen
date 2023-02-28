@@ -19,7 +19,7 @@ while (cap != "y" and cap != "Y" and cap != "n" and cap != "N") or cap == None:
     sleep(1)
     cap=str(input("\n [::] Please enter again: "))
 if cap == "y" or cap == "Y":
-    capital=True
+    capital = True
 else:
     capital=False
     
@@ -35,6 +35,7 @@ else:
 num=str(input("\n [?] Do you want to include numbers ?[Y/N] "))
 while num != "y" and num != "Y" and num != "n" and num != "N" or num == None:
     print("[!] Invalid input !")
+    sleep(1)
     num=str(input("\n [::] Please enter again: "))
 if num == "y" or num == "Y":
     numbers=True
@@ -51,7 +52,7 @@ else:
 length=int(input("\n[::] Please enter the password length: "))
 while length < 4:
     print("[!] Cannot generate password with that length !")
-    time.sleep(1)
+    sleep(1)
     length=int(input("\n[::] Please enter again the password length: "))
 
 RANDLIST = []
