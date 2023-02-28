@@ -25,7 +25,8 @@ else:
     
 low=str(input("\n [?] Do you want to include low letters ?[Y/N] "))
 while low != "y" and low != "Y" and low != "n" and low != "N" or low == None:
-    print("[!] Invalid Input !")
+    print("[!] Invalid input !")
+    sleep(1)
     low=input("\n[::] Please enter again: ")
 if low == "y" or low == "Y":
     lower=True
