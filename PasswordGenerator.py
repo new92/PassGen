@@ -9,7 +9,7 @@ import random
 from time import sleep
 
 caps=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
-lows=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+lows=[caps[i].lower() for i in range(len(caps))]
 nums=["1","2","3","4","5","6","7","8","9"]
 spesChars=["!","@","#","$","%","^","&","*","|","/"]
 
@@ -42,6 +42,7 @@ if num == "y" or num == "Y":
     numbers = True
 else:
     numbers = False
+    
 speschar=str(input("[?] Do you want to include special characters ? [Y/N] "))
 while speschar != "y" and speschar != "Y" and speschar != "n" and speschar != "N"  or speschar == None:
     print("[!] Invalid input !")
