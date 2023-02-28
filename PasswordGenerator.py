@@ -5,7 +5,6 @@ Github: @new92
 Script for Generating strong passwords !
 """
 
-#Imports
 import random
 import time
 
