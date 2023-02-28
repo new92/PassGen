@@ -1,7 +1,7 @@
 """
-Author: @new92
+Author: new92
 Password Generator
-Script for Generating strong Passwords !
+Script for Generating strong passwords !
 """
 
 #Imports
