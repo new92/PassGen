@@ -41,9 +41,10 @@ if num == "y" or num == "Y":
     numbers=True
 else:
     numbers = False
-speschar=input("\n[?] Do you want to include special characters ?[Y/N] ")
+speschar=str(input("\n[?] Do you want to include special characters ?[Y/N] "))
 while speschar != "y" and speschar != "Y" and speschar != "n" and speschar != "N"  or speschar == None:
-    print("[!] Invalid Input !")
+    print("[!] Invalid input !")
+    sleep(1)
     speschar=input("\n[::] Please enter again: ")
 if speschar == "y" or speschar == "Y":
     specialchar = True
