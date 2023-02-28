@@ -1,7 +1,7 @@
 """
 Author: new92
 Github: @new92
-Password Generator
+
 Script for Generating strong passwords !
 """
 
