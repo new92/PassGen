@@ -1,7 +1,7 @@
 """
 Author: @new92
 Password Generator
-Program for Generating Strong Passwords !
+Script for Generating strong Passwords !
 """
 
 #Imports
