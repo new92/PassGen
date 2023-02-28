@@ -72,4 +72,4 @@ psw = ""
 for i in range(length):
     psw += random.choice(RANDLIST)
 
-print("[+] Your Password: "+str(psw))
+print("[✓] Your Password: "+str(psw))
