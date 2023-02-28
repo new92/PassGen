@@ -21,7 +21,7 @@ while (cap != "y" and cap != "Y" and cap != "n" and cap != "N") or cap == None:
 if cap == "y" or cap == "Y":
     capital = True
 else:
-    capital=False
+    capital = False
     
 low=str(input("[?] Do you want to include low letters ? [Y/N] "))
 while low != "y" and low != "Y" and low != "n" and low != "N" or low == None:
@@ -29,7 +29,7 @@ while low != "y" and low != "Y" and low != "n" and low != "N" or low == None:
     sleep(1)
     low=str(input("[?] Do you want to include low letters ? [Y/N] "))
 if low == "y" or low == "Y":
-    lower=True
+    lower = True
 else:
     lower = False
 num=str(input("\n [?] Do you want to include numbers ? [Y/N] "))
