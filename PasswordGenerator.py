@@ -51,7 +51,7 @@ if speschar == "y" or speschar == "Y":
     specialchar = True
 else:
     specialchar = False
-length=int(input("\n[::] Please enter the password length: "))
+length=int(input("[::] Please enter the password length: "))
 while length < 4:
     print("[!] Cannot generate password with that length !")
     sleep(1)
