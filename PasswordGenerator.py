@@ -34,8 +34,8 @@ else:
     lower = False
 num=str(input("\n [?] Do you want to include numbers ?[Y/N] "))
 while num != "y" and num != "Y" and num != "n" and num != "N" or num == None:
-    print("[!] Invalid Input !")
-    num=input("\n [::] Please enter again: ")
+    print("[!] Invalid input !")
+    num=str(input("\n [::] Please enter again: "))
 if num == "y" or num == "Y":
     numbers=True
 else:
