@@ -6,7 +6,7 @@ Script for Generating strong passwords !
 """
 
 import random
-import time
+from time import sleep
 
 caps=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 lows=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
@@ -15,14 +15,15 @@ spesChars=["!","@","#","$","%","^","&","*","|","/"]
 
 cap=str(input("[?] Do you want to include cappital letters ?[Y/N] "))
 while (cap != "y" and cap != "Y" and cap != "n" and cap != "N") or cap == None:
-    print("[!] Invalid Input !")
-    cap=input("\n [::] Please enter again: ")
+    print("[!] Invalid input !")
+    sleep(1)
+    cap=str(input("\n [::] Please enter again: "))
 if cap == "y" or cap == "Y":
     capital=True
 else:
     capital=False
     
-low=input("\n [?] Do you want to include low letters ?[Y/N] ")
+low=str(input("\n [?] Do you want to include low letters ?[Y/N] "))
 while low != "y" and low != "Y" and low != "n" and low != "N" or low == None:
     print("[!] Invalid Input !")
     low=input("\n[::] Please enter again: ")
