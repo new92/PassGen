@@ -32,13 +32,13 @@ if low == "y" or low == "Y":
     lower = True
 else:
     lower = False
-num=str(input("\n [?] Do you want to include numbers ? [Y/N] "))
+num=str(input("[?] Do you want to include numbers ? [Y/N] "))
 while num != "y" and num != "Y" and num != "n" and num != "N" or num == None:
     print("[!] Invalid input !")
     sleep(1)
     num=str(input("\n [::] Please enter again: "))
 if num == "y" or num == "Y":
-    numbers=True
+    numbers = True
 else:
     numbers = False
 speschar=str(input("[?] Do you want to include special characters ? [Y/N] "))
