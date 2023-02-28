@@ -13,17 +13,17 @@ lows=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s
 nums=["1","2","3","4","5","6","7","8","9"]
 spesChars=["!","@","#","$","%","^","&","*","|","/"]
 
-cap=str(input("[?] Do you want to include cappital letters ?[Y/N] "))
+cap=str(input("[?] Do you want to include cappital letters ? [Y/N] "))
 while (cap != "y" and cap != "Y" and cap != "n" and cap != "N") or cap == None:
     print("[!] Invalid input !")
     sleep(1)
-    cap=str(input("\n [::] Please enter again: "))
+    cap=str(input("[?] Do you want to include cappital letters ? [Y/N] "))
 if cap == "y" or cap == "Y":
     capital = True
 else:
     capital=False
     
-low=str(input("\n [?] Do you want to include low letters ?[Y/N] "))
+low=str(input("\n [?] Do you want to include low letters ? [Y/N] "))
 while low != "y" and low != "Y" and low != "n" and low != "N" or low == None:
     print("[!] Invalid input !")
     sleep(1)
@@ -32,7 +32,7 @@ if low == "y" or low == "Y":
     lower=True
 else:
     lower = False
-num=str(input("\n [?] Do you want to include numbers ?[Y/N] "))
+num=str(input("\n [?] Do you want to include numbers ? [Y/N] "))
 while num != "y" and num != "Y" and num != "n" and num != "N" or num == None:
     print("[!] Invalid input !")
     sleep(1)
@@ -41,11 +41,11 @@ if num == "y" or num == "Y":
     numbers=True
 else:
     numbers = False
-speschar=str(input("\n[?] Do you want to include special characters ?[Y/N] "))
+speschar=str(input("[?] Do you want to include special characters ? [Y/N] "))
 while speschar != "y" and speschar != "Y" and speschar != "n" and speschar != "N"  or speschar == None:
     print("[!] Invalid input !")
     sleep(1)
-    speschar=input("\n[::] Please enter again: ")
+    speschar=str(input("[?] Do you want to include special characters ? [Y/N] "))
 if speschar == "y" or speschar == "Y":
     specialchar = True
 else:
