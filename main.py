@@ -11,7 +11,7 @@ import string
 
 caps=list(string.ascii_uppercase)
 lows=list(string.ascii_lowercase)
-nums=["1","2","3","4","5","6","7","8","9"]
+nums=[str(i) for i in range(10)]
 spesChars=["!","@","#","$","%","^","&","*","|","/"]
 
 cap=str(input("[?] Do you want to include cappital letters ? [Y/N] "))
