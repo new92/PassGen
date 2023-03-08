@@ -92,3 +92,7 @@ def main():
     print("[+] Thank you for using my script 😁")
     sleep(2)
     print("[+] See you next time 👋")
+    sleep(1)
+    exit(0)
+if __name__ == '__main__':
+    main()
