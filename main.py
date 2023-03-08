@@ -58,7 +58,7 @@ length=int(input("[::] Please enter the password length: "))
 while length < 4:
     print("[!] Weak password !")
     sleep(1)
-    length=int(input("[::] Please enter again length of : "))
+    length=int(input("[::] Please enter again length of the : "))
 
 RANDLIST = []
 if capital:
