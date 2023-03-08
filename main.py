@@ -25,7 +25,7 @@ def ProgInfo():
     forks = 0
     vers = 1.0
     api = None
-    lines = 0
+    lines = 155
     f = '/PassGen/main.py'
     if os.path.exists(os.path.abs.path(f)):
         fsize = (os.stat(f)).st_size
