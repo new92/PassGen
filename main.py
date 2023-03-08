@@ -31,12 +31,14 @@ def ProgInfo():
         fsize = (os.stat(f)).st_size
     else:
         fsize = 0
+    desc = 'Script for generating strong passwords !"
     print(f"[+] Author: {author}")
     print(f"[+] Github: @{author}")
     print(f"[+] Version: {str(vers)}")
     print(f"[+] Name: {name}")
     print(f"[+] Programming language: {lang}")
     print(f"[+] Natural language: {language}")
+    print(f"[+] Description: {desc}")
     print(f"[+] Stars on Github repo: {str(stars)}")
     print(f"[+] Forks on the Github repo: {str(forks)}")
     print(f"[+] API used: {str(api)}")
