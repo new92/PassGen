@@ -19,6 +19,7 @@ def main():
     print("[+] Github: @new92")
     print("\n")
     print("[1] Generate password")
+    print("[2] Exit")
     cap=str(input("[?] Do you want to include cappital letters ? [Y/N] "))
     while (cap != "y" and cap != "Y" and cap != "n" and cap != "N") or cap == None:
         print("[!] Invalid input !")
