@@ -91,3 +91,4 @@ def main():
    else:
     print("[+] Thank you for using my script 😁")
     sleep(2)
+    print("[+] See you next time 
