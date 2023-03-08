@@ -7,9 +7,10 @@ Script for Generating strong passwords !
 
 from random import choice
 from time import sleep
+import string
 
-caps=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
-lows=[caps[i].lower() for i in range(len(caps))]
+caps=list(string.ascii_uppercase)
+lows=
 nums=["1","2","3","4","5","6","7","8","9"]
 spesChars=["!","@","#","$","%","^","&","*","|","/"]
 
