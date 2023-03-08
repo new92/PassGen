@@ -73,4 +73,4 @@ psw = ""
 for i in range(length):
     psw += choice(RANDLIST)
 
-print(f"[✓] Generated password: "psw)
+print(f"[✓] Generated password: psw)
