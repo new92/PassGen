@@ -88,11 +88,11 @@ def main():
             psw += choice(RANDLIST)
 
         print(f"[✓] Generated password: {psw}")
-   else:
-    print("[+] Thank you for using my script 😁")
-    sleep(2)
-    print("[+] See you next time 👋")
-    sleep(1)
-    exit(0)
+    else:
+        print("[+] Thank you for using my script 😁")
+        sleep(2)
+        print("[+] See you next time 👋")
+        sleep(1)
+        exit(0)
 if __name__ == '__main__':
     main()
