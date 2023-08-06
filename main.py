@@ -31,7 +31,7 @@ def ProgInfo():
         fsize = (os.stat(f)).st_size
     else:
         fsize = 0
-    desc = 'Script for generating strong passwords !"
+    desc = "Script for generating strong passwords !"
     print(f"[+] Author: {author}")
     print(f"[+] Github: @{author}")
     print(f"[+] Version: {str(vers)}")
